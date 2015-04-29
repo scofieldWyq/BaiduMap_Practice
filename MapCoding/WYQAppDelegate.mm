@@ -8,12 +8,27 @@
 
 #import "WYQAppDelegate.h"
 
+
 @implementation WYQAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    
+    self.mapManager = [[BMKMapManager alloc] init];
+    self.mapViewC = [[WYQMap alloc] init];
+    
+    BOOL ret = [self.mapManager start:@"AknyHu2FgZlhnyW8MohVr4bE" generalDelegate:nil];
+    
+    if( !ret){
+        NSLog(@"manager start failed!");
+    }
+    
+    
+    self.window.rootViewController = self.mapViewC;
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

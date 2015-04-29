@@ -12,13 +12,21 @@
 		D13F3D5E1AF0CB5C00BCA180 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D13F3D5D1AF0CB5C00BCA180 /* UIKit.framework */; };
 		D13F3D641AF0CB5C00BCA180 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D13F3D621AF0CB5C00BCA180 /* InfoPlist.strings */; };
 		D13F3D661AF0CB5C00BCA180 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D13F3D651AF0CB5C00BCA180 /* main.m */; };
-		D13F3D6A1AF0CB5C00BCA180 /* WYQAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D13F3D691AF0CB5C00BCA180 /* WYQAppDelegate.m */; };
+		D13F3D6A1AF0CB5C00BCA180 /* WYQAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = D13F3D691AF0CB5C00BCA180 /* WYQAppDelegate.mm */; };
 		D13F3D6C1AF0CB5C00BCA180 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D13F3D6B1AF0CB5C00BCA180 /* Images.xcassets */; };
 		D13F3D731AF0CB5C00BCA180 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D13F3D721AF0CB5C00BCA180 /* XCTest.framework */; };
 		D13F3D741AF0CB5C00BCA180 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D13F3D591AF0CB5C00BCA180 /* Foundation.framework */; };
 		D13F3D751AF0CB5C00BCA180 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D13F3D5D1AF0CB5C00BCA180 /* UIKit.framework */; };
 		D13F3D7D1AF0CB5C00BCA180 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D13F3D7B1AF0CB5C00BCA180 /* InfoPlist.strings */; };
 		D13F3D7F1AF0CB5C00BCA180 /* MapCodingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D13F3D7E1AF0CB5C00BCA180 /* MapCodingTests.m */; };
+		D13F3DA61AF0F94400BCA180 /* BaiduMapAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D13F3DA51AF0F94400BCA180 /* BaiduMapAPI.framework */; };
+		D13F3DA81AF0F99E00BCA180 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D13F3DA71AF0F99E00BCA180 /* CoreLocation.framework */; };
+		D13F3DAA1AF0F9B300BCA180 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D13F3DA91AF0F9B300BCA180 /* QuartzCore.framework */; };
+		D13F3DAE1AF0F9E000BCA180 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D13F3DAB1AF0F9E000BCA180 /* OpenGLES.framework */; };
+		D13F3DAF1AF0F9E000BCA180 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D13F3DAC1AF0F9E000BCA180 /* Security.framework */; };
+		D13F3DB01AF0F9E000BCA180 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D13F3DAD1AF0F9E000BCA180 /* SystemConfiguration.framework */; };
+		D13F3DB21AF0FA7700BCA180 /* mapapi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D13F3DB11AF0FA7700BCA180 /* mapapi.bundle */; };
+		D13F3DB51AF0FD5100BCA180 /* WYQMap.m in Sources */ = {isa = PBXBuildFile; fileRef = D13F3DB41AF0FD5100BCA180 /* WYQMap.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,13 +49,22 @@
 		D13F3D651AF0CB5C00BCA180 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D13F3D671AF0CB5C00BCA180 /* MapCoding-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MapCoding-Prefix.pch"; sourceTree = "<group>"; };
 		D13F3D681AF0CB5C00BCA180 /* WYQAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYQAppDelegate.h; sourceTree = "<group>"; };
-		D13F3D691AF0CB5C00BCA180 /* WYQAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYQAppDelegate.m; sourceTree = "<group>"; };
+		D13F3D691AF0CB5C00BCA180 /* WYQAppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = WYQAppDelegate.mm; sourceTree = "<group>"; };
 		D13F3D6B1AF0CB5C00BCA180 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D13F3D711AF0CB5C00BCA180 /* MapCodingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapCodingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D13F3D721AF0CB5C00BCA180 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D13F3D7A1AF0CB5C00BCA180 /* MapCodingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MapCodingTests-Info.plist"; sourceTree = "<group>"; };
 		D13F3D7C1AF0CB5C00BCA180 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D13F3D7E1AF0CB5C00BCA180 /* MapCodingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapCodingTests.m; sourceTree = "<group>"; };
+		D13F3DA51AF0F94400BCA180 /* BaiduMapAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI.framework; path = "../../../../../Users/wuyingqiang/Downloads/BaiduMap_IOSSDK_v2.7.0_All/BaiduMap_IOSSDK_v2.7.0_Lib/Release-iphonesimulator/BaiduMapAPI.framework"; sourceTree = "<group>"; };
+		D13F3DA71AF0F99E00BCA180 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D13F3DA91AF0F9B300BCA180 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D13F3DAB1AF0F9E000BCA180 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		D13F3DAC1AF0F9E000BCA180 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		D13F3DAD1AF0F9E000BCA180 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D13F3DB11AF0FA7700BCA180 /* mapapi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = mapapi.bundle; path = "../../../../../Users/wuyingqiang/Downloads/BaiduMap_IOSSDK_v2.7.0_All/BaiduMap_IOSSDK_v2.7.0_Lib/Release-iphonesimulator/BaiduMapAPI.framework/Resources/mapapi.bundle"; sourceTree = "<group>"; };
+		D13F3DB31AF0FD5100BCA180 /* WYQMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYQMap.h; sourceTree = "<group>"; };
+		D13F3DB41AF0FD5100BCA180 /* WYQMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYQMap.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +72,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D13F3DAE1AF0F9E000BCA180 /* OpenGLES.framework in Frameworks */,
+				D13F3DAF1AF0F9E000BCA180 /* Security.framework in Frameworks */,
+				D13F3DB01AF0F9E000BCA180 /* SystemConfiguration.framework in Frameworks */,
 				D13F3D5C1AF0CB5C00BCA180 /* CoreGraphics.framework in Frameworks */,
+				D13F3DAA1AF0F9B300BCA180 /* QuartzCore.framework in Frameworks */,
+				D13F3DA81AF0F99E00BCA180 /* CoreLocation.framework in Frameworks */,
+				D13F3DA61AF0F94400BCA180 /* BaiduMapAPI.framework in Frameworks */,
 				D13F3D5E1AF0CB5C00BCA180 /* UIKit.framework in Frameworks */,
 				D13F3D5A1AF0CB5C00BCA180 /* Foundation.framework in Frameworks */,
 			);
@@ -77,6 +100,7 @@
 		D13F3D4D1AF0CB5C00BCA180 = {
 			isa = PBXGroup;
 			children = (
+				D13F3DB11AF0FA7700BCA180 /* mapapi.bundle */,
 				D13F3D5F1AF0CB5C00BCA180 /* MapCoding */,
 				D13F3D781AF0CB5C00BCA180 /* MapCodingTests */,
 				D13F3D581AF0CB5C00BCA180 /* Frameworks */,
@@ -96,6 +120,12 @@
 		D13F3D581AF0CB5C00BCA180 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D13F3DAB1AF0F9E000BCA180 /* OpenGLES.framework */,
+				D13F3DAC1AF0F9E000BCA180 /* Security.framework */,
+				D13F3DAD1AF0F9E000BCA180 /* SystemConfiguration.framework */,
+				D13F3DA91AF0F9B300BCA180 /* QuartzCore.framework */,
+				D13F3DA71AF0F99E00BCA180 /* CoreLocation.framework */,
+				D13F3DA51AF0F94400BCA180 /* BaiduMapAPI.framework */,
 				D13F3D591AF0CB5C00BCA180 /* Foundation.framework */,
 				D13F3D5B1AF0CB5C00BCA180 /* CoreGraphics.framework */,
 				D13F3D5D1AF0CB5C00BCA180 /* UIKit.framework */,
@@ -108,7 +138,9 @@
 			isa = PBXGroup;
 			children = (
 				D13F3D681AF0CB5C00BCA180 /* WYQAppDelegate.h */,
-				D13F3D691AF0CB5C00BCA180 /* WYQAppDelegate.m */,
+				D13F3D691AF0CB5C00BCA180 /* WYQAppDelegate.mm */,
+				D13F3DB31AF0FD5100BCA180 /* WYQMap.h */,
+				D13F3DB41AF0FD5100BCA180 /* WYQMap.m */,
 				D13F3D6B1AF0CB5C00BCA180 /* Images.xcassets */,
 				D13F3D601AF0CB5C00BCA180 /* Supporting Files */,
 			);
@@ -220,6 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D13F3DB21AF0FA7700BCA180 /* mapapi.bundle in Resources */,
 				D13F3D641AF0CB5C00BCA180 /* InfoPlist.strings in Resources */,
 				D13F3D6C1AF0CB5C00BCA180 /* Images.xcassets in Resources */,
 			);
@@ -240,8 +273,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D13F3D6A1AF0CB5C00BCA180 /* WYQAppDelegate.m in Sources */,
+				D13F3D6A1AF0CB5C00BCA180 /* WYQAppDelegate.mm in Sources */,
 				D13F3D661AF0CB5C00BCA180 /* main.m in Sources */,
+				D13F3DB51AF0FD5100BCA180 /* WYQMap.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,9 +392,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/wuyingqiang/Downloads/BaiduMap_IOSSDK_v2.7.0_All/BaiduMap_IOSSDK_v2.7.0_Lib/Release-iphonesimulator",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MapCoding/MapCoding-Prefix.pch";
 				INFOPLIST_FILE = "MapCoding/MapCoding-Info.plist";
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -371,6 +410,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/wuyingqiang/Downloads/BaiduMap_IOSSDK_v2.7.0_All/BaiduMap_IOSSDK_v2.7.0_Lib/Release-iphonesimulator",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MapCoding/MapCoding-Prefix.pch";
 				INFOPLIST_FILE = "MapCoding/MapCoding-Info.plist";
