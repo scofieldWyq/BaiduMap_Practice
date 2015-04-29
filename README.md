@@ -15,8 +15,13 @@
 ##History:
 
 > "baidu map view" commit 
+
   - there maybe meet a trouble when you use CoreLocation to locat your position  in simulator or your machine:
+
+
+
   	Error Domain=kCLErrorDomain Code=0 "The operation couldn’t be completed. (kCLErrorDomain error 0.)" 
+
 	result from [here](http://blog.csdn.net/zhyl8157121/article/details/40112919)
 	1.确定模拟器（手机）已经联网并且允许程序获取地理位置
 	2.重置地理位置服务或者网络服务
